@@ -21,6 +21,7 @@ body {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 3%;
+    margin-right: 76px;
 }
 
 a {
@@ -66,9 +67,9 @@ a {
 }
 
 .container {
-    display: flex;
     width: 1158px;
-    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 
@@ -153,5 +154,30 @@ button:focus {
     background-color: #ffffff;
 }
 
+img {
+    display: block;
+}
 
+footer {
+    padding: 100px 0 100px;
+}
 
+.head {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    padding: 24px 0 24px;
+    gap: 40px;
+}
+
+.menu :nth-child(2) {
+    margin-right: 0 auto;
+} 
