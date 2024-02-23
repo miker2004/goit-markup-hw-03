@@ -209,3 +209,9 @@ h6,
 p { 
 margin: 0;
  }
+
+
+.web-foot {
+    display: block;
+    margin-bottom: 16px;
+}
