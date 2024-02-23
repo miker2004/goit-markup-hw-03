@@ -4,6 +4,11 @@ body {
     background-color: #ffffff;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -73,12 +78,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-}
-
 
 .list-items {
     gap: 8px;
