@@ -26,6 +26,7 @@ body {
 
 a {
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .contacts-style {
@@ -120,6 +121,13 @@ a:active {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 3%;
+}
+
+.contact-flex {
+    display: block;
+    justify-content: flex-end;
+    margin: 0 auto;
+    flex-direction: row;
 }
 
 .contacts-links {
