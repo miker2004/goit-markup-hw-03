@@ -12,6 +12,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 700;
+    margin-right: 76px;
 }
 
 .logo-part-2 {
@@ -21,25 +22,31 @@ body {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 3%;
-    margin-right: 76px;
 }
 
 a {
     text-decoration: none;
-    margin: 0 auto;
 }
 
 .contacts-style {
     font-style: normal;
 }
 
-.main-nav {
+.main-nav  {
     color: #2E2F42;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.last-item{
+    margin-right: 0;
 }
 
 .second-heading {
@@ -70,7 +77,6 @@ a {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 
 
@@ -89,9 +95,8 @@ a {
     max-width: 496px;
 }
 
-li {
+ul {
     list-style: none; 
-    margin: 0; 
     padding-left: 0; 
 }
 
@@ -124,10 +129,12 @@ a:active {
 }
 
 .contact-flex {
-    display: block;
-    justify-content: flex-end;
-    margin: 0 auto;
-    flex-direction: row;
+    display: flex;
+    margin-right: 40px;
+}
+
+.contact-flex :nth-child(1){
+    margin: 0;
 }
 
 .contacts-links {
@@ -148,18 +155,17 @@ button {
 .order-button {
     color: #ffffff;
     background-color: #4d5ae5;
-    border-radius: 4pxs;
+    border-radius: 4px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer; 
+    letter-spacing: 0.04em; 
     min-width: 169px;
-    height: 56pxs;
+    height: 56px;
     border: none;
-
+    display: block;
 }
 
 button:hover {
@@ -195,6 +201,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding: 0 15px 0 15px;
 }
 
 .menu {
@@ -202,11 +209,6 @@ footer {
     padding: 24px 0 24px;
     gap: 40px;
 }
-
-.menu :nth-child(2) {
-    margin-right: 0 auto;
-} 
-
 
 h1,
 h2,
@@ -220,6 +222,14 @@ margin: 0;
 
 
 .web-foot {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
+}
+
+.first-section {
+    padding: 188px 0 188px;
+}
+
+.foot-section {
+    padding: 100px 0 100px;
 }
