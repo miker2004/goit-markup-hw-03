@@ -130,7 +130,9 @@ a:active {
 
 .contact-flex {
     display: flex;
+    gap: 40px;
     margin-right: 40px;
+    padding: 24px 0 24px;
 }
 
 .contact-flex :nth-child(1){
