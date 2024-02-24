@@ -119,7 +119,6 @@ a {
 
 .third-li_style {
     padding: 32px 16px 32px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .third-txt_style {
@@ -280,6 +279,15 @@ footer {
 
 .third-section {
     padding: 120px 0 120px;
+}
+
+.third-headings_style {
+    margin-bottom: 8px;
+}
+
+.third-li {
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .forth-section {
