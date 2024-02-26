@@ -17,6 +17,7 @@ margin: 0;
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .logo {
@@ -45,6 +46,7 @@ a {
 
 .contacts-style {
     font-style: normal;
+    margin-left: auto;
 }
 
 .main-nav  {
@@ -59,7 +61,6 @@ a {
 .nav-style {
     display: flex;
     gap: 40px;
-    margin-right: 40px;
 }
 
 .nav-list {
@@ -78,13 +79,12 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .second-txt {
     display: flex;
     gap: 24px;
-    margin-right: 24px;
 }
 
 .second-txt_style {
@@ -123,7 +123,6 @@ a {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     gap: 24px;
-    margin-right: 24px;
 }
 
 .third-li_style {
@@ -158,18 +157,19 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 ul {
     list-style: none; 
     padding-left: 0; 
+    margin: 0;
 }
 
 .bg-clr {
-    color: #F4F4FD;
     background-color: #2E2F42; 
-    width: 1440px;
-    height: 600px;
+    padding: 188px 0 188px;
 }
 
 a:hover{
@@ -196,7 +196,6 @@ a:active {
 .contact-flex {
     display: flex;
     gap: 40px;
-    margin-right: 40px;
     padding: 24px 0 24px;
 }
 
@@ -233,6 +232,7 @@ button {
     height: 56px;
     border: none;
     display: block;
+    margin: 0 auto;
 }
 
 button:hover {
@@ -264,11 +264,14 @@ footer {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center; 
+}
+
 .navigation {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding: 0 15px 0 15px;
 }
 
 .menu {
@@ -282,9 +285,7 @@ footer {
     margin-bottom: 16px;
 }
 
-.first-section {
-    padding: 188px 0 188px;
-}
+
 
 .second-section {
     padding: 120px 0 120px
@@ -319,7 +320,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    margin-bottom: 48px;
     row-gap: 48px;
 }
 
@@ -331,9 +331,12 @@ footer {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    width: calc((100% - 48px) / 3)
 }
 
 .foot-section {
-    padding: 100px 0 100px;
+
+}
+
+.footer-p {
+    color: #F4F4FD;
 }
